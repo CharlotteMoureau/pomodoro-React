@@ -1,0 +1,61 @@
+.Timer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Zen Dots', cursive;
+    color: #33095f;
+}
+
+.Timer-cycle {
+    font-size: 1.8vw;
+    margin-bottom: 15%;
+}
+
+.Timer-clock {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    width: 55%;
+    height: 55%;
+    margin: auto;
+    margin-bottom: 25vh;
+}
+
+.Timer-time {
+    font-size: 7.5vh;
+    color: #33095f;
+    -webkit-text-stroke: 2px turquoise;
+}
+
+.Timer-buttons {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.Timer button {
+    background: none;
+    border: 3px solid turquoise;
+    color: turquoise;
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.Timer button:hover{
+    box-shadow: 0 0 5px turquoise,
+    0 0 20px rgb(10 248 250 / 0.8),
+    0 0 35px rgb(10 248 250 / 0.7),
+    0 0 50px rgb(10 248 250 / 0.6);
+    border-color: white;
+}
+
+.Timer i {
+    font-size: 2em;
+}

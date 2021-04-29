@@ -1,0 +1,46 @@
+.Button {
+    
+}
+
+.Button-title {
+    color: #fb8faf;
+    margin-bottom: 10px;
+}
+
+.Button-button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+}
+
+.Button-time {
+    padding-top: 20px;
+}
+
+.Button button {
+    background: none;
+    border: 1px solid turquoise;
+    color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.Button button:hover {
+    box-shadow: 0 0 5px turquoise,
+    0 0 5px rgb(10 248 250 / 0.8),
+    0 0 15px rgb(10 248 250 / 0.7),
+    0 0 20px rgb(10 248 250 / 0.6);
+    border-color: white;
+    color: #fb8faf;
+    cursor: pointer;
+}
+
+.Button-plus {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.Button-minus {
+    grid-area: 2 / 2 / 3 / 3;
+}
