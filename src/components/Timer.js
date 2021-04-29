@@ -24,10 +24,14 @@ class Timer extends Component {
             case 'start':
                 this.props.play(true)
                 this.startTimer()
-                this.setState({
-                    minute: this.props.workTime,
-                    start: true
-                })
+                if (this.state.start = true) {
+
+                } else {
+                    this.setState({
+                        minute: this.props.workTime,
+                        start: true
+                    })
+                }
                 break
             case 'stop':
                 this.props.play(false)
@@ -100,7 +104,7 @@ class Timer extends Component {
                     })
                     break
             }
-        }, 1000)
+        }, 10)
 
         this.setState({
             intervalId: intervalId

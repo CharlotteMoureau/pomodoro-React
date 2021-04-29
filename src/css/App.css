@@ -14,7 +14,7 @@ body {
     text-align: center;
     width: 50%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 2%;
 }
 
 .App-title {
@@ -22,7 +22,7 @@ body {
     font-size: 4vw;
     text-align: center;
     color: turquoise;
-    margin-bottom: 200px;
+    margin-bottom: 20%;
 }
 
 .App-open-modal {
