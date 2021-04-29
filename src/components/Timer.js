@@ -25,7 +25,9 @@ class Timer extends Component {
                 this.props.play(true)
                 this.startTimer()
                 if (this.state.start = true) {
-
+                    this.setState({
+                        minute: this.props.workTime
+                    })
                 } else {
                     this.setState({
                         minute: this.props.workTime,
@@ -56,6 +58,11 @@ class Timer extends Component {
         }
     }
     changeMinute(sessionTime) {
+        if (this.props.modalOpen) {
+            this.setState({
+                minute: this.props.workTime
+            })
+        }
         this.setState({
             minute: sessionTime
         })
