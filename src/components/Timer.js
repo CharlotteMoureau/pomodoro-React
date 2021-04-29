@@ -104,7 +104,7 @@ class Timer extends Component {
                     })
                     break
             }
-        }, 10)
+        }, 1000)
 
         this.setState({
             intervalId: intervalId
