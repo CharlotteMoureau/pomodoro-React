@@ -26,7 +26,7 @@ class Timer extends Component {
                 this.startTimer()
                 if (this.state.start = true) {
                     this.setState({
-                        minute: this.props.workTime
+                        minute: this.state.minute
                     })
                 } else {
                     this.setState({
